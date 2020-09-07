@@ -4,3 +4,5 @@ azure-mgmt-compute
 haikunator
 Flask
 Flask-RESTFul
+flask_pymongo
+flask-restful-swagger

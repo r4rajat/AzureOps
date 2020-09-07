@@ -1,0 +1,33 @@
+# Azure Provider Constants
+AZURE_SUBSCRIPTION_ID = 'AZURE_SUBSCRIPTION_ID'
+AZURE_CLIENT_ID = 'AZURE_CLIENT_ID'
+AZURE_CLIENT_SECRET = 'AZURE_CLIENT_SECRET'
+AZURE_TENANT_ID = 'AZURE_TENANT_ID'
+LOCATION = 'location'
+GROUP_NAME = 'group_name'
+VMNET_NAME = 'vmnet_name'
+SUBNET_NAME = 'subnet_name'
+OS_DISK_NAME = 'os_disk_name'
+IP_CONFIG_NAME = 'ip_config_name'
+NIC_NAME = 'nic_name'
+USERNAME = 'username'
+PASSWORD = 'password'
+VM_NAME = 'vm_name'
+# Azure Template Constants
+OS = 'os'
+PUBLISHER = 'publisher'
+OFFER = 'offer'
+SKU = 'sku'
+VERSION = 'version'
+
+
+# App Constant
+APP_DEBUG = 'APP_DEBUG'
+APP_HOST = 'APP_HOST'
+APP_PORT = 'APP_PORT'
+MESSAGE = 'message'
+ERROR_MESSAGE = 'error'
+STATUS = 'status'
+TITLE = 'title'
+DATA = 'data'
+ID = '_id'
