@@ -4,6 +4,7 @@ from flask_restful import Api
 from flask_pymongo import PyMongo
 from flask_restful_swagger import swagger
 
+
 app = Flask(__name__)
 
 api = swagger.docs(
@@ -32,3 +33,5 @@ def add_headers(response):
 
 
 mongo = PyMongo(app)
+
+

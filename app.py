@@ -2,8 +2,13 @@ from config import api, app
 import constant
 import os
 from api.AppConfig import ApplicationConfiguration
+from api.Images import Images
+from api.Flavors import Flavors
+
 
 api.add_resource(ApplicationConfiguration, '/api/azure/application-configuration')
+api.add_resource(Images, '/api/azure/images')
+api.add_resource(Flavors, '/api/azure/flavors')
 
 
 
