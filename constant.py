@@ -20,6 +20,14 @@ OFFER = 'offer'
 SKU = 'sku'
 VERSION = 'version'
 
+# Flavor Constants
+NAME = 'name'
+NUMBER_OF_CORES = 'number_of_cores'
+OS_DISK_SIZE_IN_MB = 'os_disk_size_in_mb'
+RESOURCE_DISK_SIZE_IN_MB = 'resource_disk_size_in_mb'
+MEMORY_IN_MB = 'memory_in_mb'
+MAX_DATA_DISK_COUNT = 'max_data_disk_count'
+
 
 # App Constant
 APP_DEBUG = 'APP_DEBUG'
